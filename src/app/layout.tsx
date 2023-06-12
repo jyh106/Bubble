@@ -5,12 +5,7 @@ import { Fuzzy_Bubbles } from 'next/font/google'
 import { v4 } from "uuid";
 import {useState} from 'react'; 
 
-const fuzzyBubbles = Fuzzy_Bubbles({ weight: '700' })
-
-export const metadata = {
-  title: 'Bubble',
-  description: 'Rant your heart out',
-}
+const fuzzyBubbles = Fuzzy_Bubbles({ weight: '700' });
 
 const bubbliness = 4;
 
